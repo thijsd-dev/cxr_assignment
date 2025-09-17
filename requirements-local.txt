@@ -1,0 +1,22 @@
+# ---------- compatibility pins FIRST ----------
+# Explicit NumPy 1.x to avoid local ABI clashes with wheels compiled for NumPy 1.x
+numpy==1.26.4
+
+# PyTorch CPU/MPS (works on macOS/Windows/Linux without CUDA)
+# If you later need CUDA, install/upgrade torch via pytorch.org after the env is created.
+torch==2.2.2
+
+# ---------- project deps ----------
+opencv-python-headless
+matplotlib
+scikit-image
+scikit-learn
+albumentations
+timm
+pillow
+kagglehub
+tabulate
+
+# ---------- notebook runtime ----------
+ipykernel
+jupyter

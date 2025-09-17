@@ -1,0 +1,11 @@
+# libs (safe across Mac & Colab)
+numpy
+opencv-python-headless
+matplotlib
+scikit-image
+scikit-learn
+albumentations
+timm
+pillow
+kagglehub
+tabulate
