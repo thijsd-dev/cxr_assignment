@@ -28,7 +28,7 @@ Different environments require slightly different dependency files:
 | **Local (VS Code + venv)** | `requirements-local.txt` (extends base with kernel, PyTorch, NumPy pin) | Use Python **3.10–3.12** (avoid 3.13+ until PyTorch support lands). In VS Code: **Python: Select Interpreter → Create Environment (venv)** → pick Py 3.10–3.12 → install from `requirements-local.txt`. |
 | **Conda (optional)** | `environment.yml` | Mirrors the local venv setup for users who prefer conda. Create with: ```bash\nconda env create -f environment.yml && conda activate cxr\n``` |
 
-👉 **Grading note**: For reproducibility and easiest setup, please use the **Google Colab workflow**.
+**Grading note**: For reproducibility and easiest setup, please use the **Google Colab workflow**.
 
 ---
 
